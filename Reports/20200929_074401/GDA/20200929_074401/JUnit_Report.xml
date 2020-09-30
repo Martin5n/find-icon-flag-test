@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GDA" time="137.886" tests="4" failures="1" errors="0">
+   <testsuite name="GDA" tests="4" failures="1" errors="0" time="137.886" timestamp="2020-09-29 07:44:09" hostname="Natasha - 192.168.254.105" id="Test Suites/GDA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\FIND-FLAG\\Reports\\20200929_074401\\GDA\\20200929_074401"/>
+         <property name="logFiles" value="C:\\Katalon\\FIND-FLAG\\Reports\\20200929_074401\\GDA\\20200929_074401\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon\\FIND-FLAG\\Reports\\20200929_074401\\GDA\\20200929_074401\\1601336785813.png"/>
+         <property name="hostName" value="Natasha - 192.168.254.105"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.254.105"/>
+         <property name="sessionId" value="aea0ef18da08859c14c3b1cc2db4e525"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_001" time="24.299" classname="Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_001" status="PASSED">
+         <system-out><![CDATA[2020-09-29 07:44:09 - [TEST_CASE][PASSED] - Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_001: Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_001
+
+2020-09-29 07:44:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 07:44:09 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-29 07:44:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-29 07:44:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-29 07:44:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-29 07:44:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-29 07:44:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-29 07:44:16 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-29 07:44:16 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 07:44:20 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 07:44:20 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 07:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 07:44:21 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 07:44:22 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 07:44:22 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 07:44:23 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 07:44:23 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 07:44:23 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 07:44:23 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 07:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 07:44:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 07:44:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Search Item Homepage GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage GDA' successfully
+
+2020-09-29 07:44:28 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Search Item Homepage GDA: Test Cases/UTILITIES/COVID19/Search Item Homepage GDA
+
+2020-09-29 07:44:28 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "Liquid culture"): Text 'Liquid culture' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 07:44:30 - [MESSAGE][PASSED] - Text 'Liquid culture' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 07:44:30 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 07:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 07:44:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage GDA' successfully
+
+2020-09-29 07:44:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("search_page/flag_icon"), 0): Object 'Object Repository/search_page/flag_icon' is present
+
+2020-09-29 07:44:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 07:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/search_page/flag_icon' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_002" time="26.083" classname="Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_002" status="PASSED">
+         <system-out><![CDATA[2020-09-29 07:44:33 - [TEST_CASE][PASSED] - Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_002: Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_002
+
+2020-09-29 07:44:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 07:44:33 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-29 07:44:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-29 07:44:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-29 07:44:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-29 07:44:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-29 07:44:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-29 07:44:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-29 07:44:39 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-29 07:44:39 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 07:44:44 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 07:44:44 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 07:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 07:44:47 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 07:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 07:44:48 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 07:44:49 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 07:44:49 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 07:44:50 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 07:44:50 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 07:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 07:44:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 07:44:53 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "item1600990526"): Text 'item1600990526' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 07:44:55 - [MESSAGE][PASSED] - Text 'item1600990526' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 07:44:55 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 07:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 07:44:58 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("search_page/flag_icon"), 0): Web element with id: 'Object Repository/search_page/flag_icon' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)
+
+2020-09-29 07:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 07:44:59 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/search_page/flag_icon' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_003" time="30.178" classname="Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_003" status="PASSED">
+         <system-out><![CDATA[2020-09-29 07:44:59 - [TEST_CASE][PASSED] - Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_003: Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_003
+
+2020-09-29 07:44:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 07:44:59 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-29 07:44:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-29 07:44:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-29 07:45:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-29 07:45:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-29 07:45:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-29 07:45:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-29 07:45:06 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-29 07:45:06 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 07:45:09 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 07:45:09 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 07:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 07:45:11 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 07:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 07:45:12 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 07:45:13 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 07:45:13 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 07:45:13 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 07:45:13 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 07:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 07:45:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 07:45:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Search Item Homepage GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage GDA' successfully
+
+2020-09-29 07:45:16 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Search Item Homepage GDA: Test Cases/UTILITIES/COVID19/Search Item Homepage GDA
+
+2020-09-29 07:45:16 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "Liquid culture"): Text 'Liquid culture' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 07:45:18 - [MESSAGE][PASSED] - Text 'Liquid culture' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 07:45:18 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 07:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 07:45:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage GDA' successfully
+
+2020-09-29 07:45:20 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/item_name")): Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-29 07:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-29 07:45:23 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/seller_name")): Object: 'Object Repository/nav_to_storefront/seller_name' is clicked on
+
+2020-09-29 07:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/seller_name' is clicked on
+
+2020-09-29 07:45:26 - [TEST_STEP][PASSED] - setText(findTestObject("nav_to_storefront/input_search"), "Liquid Culture"): Text 'Liquid Culture' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-29 07:45:28 - [MESSAGE][PASSED] - Text 'Liquid Culture' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-29 07:45:28 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/btn_search")): Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-29 07:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-29 07:45:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("nav_to_storefront/find_flag"), 0): Object 'Object Repository/nav_to_storefront/find_flag' is present
+
+2020-09-29 07:45:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 07:45:29 - [MESSAGE][PASSED] - Object 'Object Repository/nav_to_storefront/find_flag' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004" time="56.334" classname="Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/nav_to_storefront/seller_without_find'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_COMPLEX_004.run(TC_COMPLEX_004:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601336641653.run(TempTestSuite1601336641653.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nav_to_storefront/seller_without_find' located by '//a[contains(text(),'Admin Seller')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-29 07:45:29 - [TEST_CASE][FAILED] - Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004: Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/nav_to_storefront/seller_without_find'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_COMPLEX_004.run(TC_COMPLEX_004:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601336641653.run(TempTestSuite1601336641653.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nav_to_storefront/seller_without_find' located by '//a[contains(text(),'Admin Seller')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-09-29 07:45:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 07:45:30 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-29 07:45:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-29 07:45:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-29 07:45:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-29 07:45:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-29 07:45:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-29 07:45:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-29 07:45:36 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-29 07:45:36 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 07:45:38 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 07:45:38 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 07:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 07:45:43 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 07:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 07:45:44 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 07:45:45 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 07:45:45 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 07:45:45 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 07:45:45 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 07:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 07:45:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 07:45:48 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "item1600990526"): Text 'item1600990526' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 07:45:50 - [MESSAGE][PASSED] - Text 'item1600990526' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 07:45:50 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 07:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 07:45:52 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/item_name")): Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-29 07:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-29 07:45:54 - [TEST_STEP][FAILED] - click(findTestObject("nav_to_storefront/seller_without_find")): Unable to click on object 'Object Repository/nav_to_storefront/seller_without_find' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/nav_to_storefront/seller_without_find'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_COMPLEX_004.run(TC_COMPLEX_004:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601336641653.run(TempTestSuite1601336641653.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nav_to_storefront/seller_without_find' located by '//a[contains(text(),'Admin Seller')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1601336063867.run(Script1601336063867.groovy:29)
+	... 13 more
+)
+
+2020-09-29 07:46:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Admin Seller')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-29 07:46:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/nav_to_storefront/seller_without_find' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/nav_to_storefront/seller_without_find'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_COMPLEX_004.run(TC_COMPLEX_004:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601336641653.run(TempTestSuite1601336641653.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nav_to_storefront/seller_without_find' located by '//a[contains(text(),'Admin Seller')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1601336063867.run(Script1601336063867.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_074401\\GDA\\20200929_074401\\1601336785813.png]]]]></system-out>
+         <system-err><![CDATA[2020-09-29 07:45:29 - [TEST_CASE][FAILED] - Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004: Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/nav_to_storefront/seller_without_find'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_COMPLEX_004.run(TC_COMPLEX_004:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601336641653.run(TempTestSuite1601336641653.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nav_to_storefront/seller_without_find' located by '//a[contains(text(),'Admin Seller')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-29 07:44:09 - [TEST_SUITE][FAILED] - GDA: Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/nav_to_storefront/seller_without_find'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_COMPLEX_004.run(TC_COMPLEX_004:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601336641653.run(TempTestSuite1601336641653.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nav_to_storefront/seller_without_find' located by '//a[contains(text(),'Admin Seller')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-09-29 07:44:09 - [TEST_SUITE][FAILED] - GDA: Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/nav_to_storefront/seller_without_find'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC_COMPLEX_004.run(TC_COMPLEX_004:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601336641653.run(TempTestSuite1601336641653.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/nav_to_storefront/seller_without_find' located by '//a[contains(text(),'Admin Seller')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if FIND FLAG is in (find flag position)</description>
+   <name>TC_UI_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34a394cd-0349-42dd-9fd9-a54e5488c226</testCaseGuid>
+</TestCaseEntity>

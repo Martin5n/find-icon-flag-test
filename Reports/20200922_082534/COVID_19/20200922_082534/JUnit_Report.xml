@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="COVID_19" time="106.348" tests="4" failures="0" errors="0">
+   <testsuite name="COVID_19" tests="4" failures="0" errors="0" time="106.348" timestamp="2020-09-22 08:25:42" hostname="Natasha - 192.168.254.100" id="Test Suites/COVID_19">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Natasha\\Katalon Studio\\FIND-FLAG\\Reports\\20200922_082534\\COVID_19\\20200922_082534"/>
+         <property name="logFiles" value="C:\\Users\\Natasha\\Katalon Studio\\FIND-FLAG\\Reports\\20200922_082534\\COVID_19\\20200922_082534\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Natasha - 192.168.254.100"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.254.100"/>
+         <property name="sessionId" value="13a30f6fae8a0abab5750c0c377ffdcd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_001" time="22.154" classname="Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_001" status="PASSED">
+         <system-out><![CDATA[2020-09-22 08:25:42 - [TEST_CASE][PASSED] - Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_001: Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_001
+
+2020-09-22 08:25:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-22 08:25:43 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-22 08:25:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-22 08:25:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 08:25:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 08:25:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 08:25:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-22 08:25:49 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 08:25:49 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19sandbox.test-arcadier.com' successfully
+
+2020-09-22 08:25:53 - [MESSAGE][PASSED] - Navigate to 'https://covid19sandbox.test-arcadier.com' successfully
+
+2020-09-22 08:25:53 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-22 08:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-22 08:25:54 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-22 08:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-22 08:25:55 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-22 08:25:56 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-22 08:25:56 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-22 08:25:56 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-22 08:25:56 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-22 08:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-22 08:25:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-22 08:25:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Search Item Homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage' successfully
+
+2020-09-22 08:25:59 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Search Item Homepage: Test Cases/UTILITIES/COVID19/Search Item Homepage
+
+2020-09-22 08:25:59 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "uploaded in automated"): Text 'uploaded in automated' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-22 08:26:01 - [MESSAGE][PASSED] - Text 'uploaded in automated' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-22 08:26:01 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-22 08:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-22 08:26:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage' successfully
+
+2020-09-22 08:26:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("search_page/flag_icon"), 0): Object 'Object Repository/search_page/flag_icon' is present
+
+2020-09-22 08:26:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-22 08:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/search_page/flag_icon' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_002" time="21.524" classname="Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_002" status="PASSED">
+         <system-out><![CDATA[2020-09-22 08:26:04 - [TEST_CASE][PASSED] - Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_002: Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_002
+
+2020-09-22 08:26:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-22 08:26:05 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-22 08:26:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-22 08:26:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-22 08:26:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 08:26:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 08:26:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 08:26:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-22 08:26:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 08:26:11 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19sandbox.test-arcadier.com' successfully
+
+2020-09-22 08:26:15 - [MESSAGE][PASSED] - Navigate to 'https://covid19sandbox.test-arcadier.com' successfully
+
+2020-09-22 08:26:15 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-22 08:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-22 08:26:17 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-22 08:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-22 08:26:17 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-22 08:26:18 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-22 08:26:18 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-22 08:26:19 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-22 08:26:19 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-22 08:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-22 08:26:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-22 08:26:21 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "item1598418357"): Text 'item1598418357' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-22 08:26:23 - [MESSAGE][PASSED] - Text 'item1598418357' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-22 08:26:23 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-22 08:26:25 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-22 08:26:25 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("search_page/flag_icon"), 0): Web element with id: 'Object Repository/search_page/flag_icon' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)
+
+2020-09-22 08:26:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-22 08:26:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/search_page/flag_icon' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_003" time="32.846" classname="Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_003" status="PASSED">
+         <system-out><![CDATA[2020-09-22 08:26:26 - [TEST_CASE][PASSED] - Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_003: Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_003
+
+2020-09-22 08:26:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-22 08:26:26 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-22 08:26:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-22 08:26:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-22 08:26:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 08:26:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 08:26:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 08:26:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-22 08:26:32 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 08:26:32 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19sandbox.test-arcadier.com' successfully
+
+2020-09-22 08:26:34 - [MESSAGE][PASSED] - Navigate to 'https://covid19sandbox.test-arcadier.com' successfully
+
+2020-09-22 08:26:34 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-22 08:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-22 08:26:36 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-22 08:26:37 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-22 08:26:37 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-22 08:26:38 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-22 08:26:38 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-22 08:26:38 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-22 08:26:38 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-22 08:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-22 08:26:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-22 08:26:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Search Item Homepage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage' successfully
+
+2020-09-22 08:26:42 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Search Item Homepage: Test Cases/UTILITIES/COVID19/Search Item Homepage
+
+2020-09-22 08:26:42 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "uploaded in automated"): Text 'uploaded in automated' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-22 08:26:44 - [MESSAGE][PASSED] - Text 'uploaded in automated' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-22 08:26:44 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-22 08:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-22 08:26:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage' successfully
+
+2020-09-22 08:26:46 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/item_name")): Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-22 08:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-22 08:26:52 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-09-22 08:26:52 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-09-22 08:26:52 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/seller_name")): Object: 'Object Repository/nav_to_storefront/seller_name' is clicked on
+
+2020-09-22 08:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/seller_name' is clicked on
+
+2020-09-22 08:26:56 - [TEST_STEP][PASSED] - setText(findTestObject("nav_to_storefront/input_search"), "uploaded in automated"): Text 'uploaded in automated' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-22 08:26:57 - [MESSAGE][PASSED] - Text 'uploaded in automated' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-22 08:26:57 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/btn_search")): Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-22 08:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-22 08:26:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("nav_to_storefront/find_flag"), 0): Object 'Object Repository/nav_to_storefront/find_flag' is present
+
+2020-09-22 08:26:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-22 08:26:59 - [MESSAGE][PASSED] - Object 'Object Repository/nav_to_storefront/find_flag' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_004" time="28.52" classname="Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_004" status="PASSED">
+         <system-out><![CDATA[2020-09-22 08:26:59 - [TEST_CASE][PASSED] - Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_004: Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_004
+
+2020-09-22 08:26:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-22 08:26:59 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-22 08:26:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-22 08:26:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-22 08:27:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 08:27:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 08:27:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 08:27:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-22 08:27:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 08:27:05 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19sandbox.test-arcadier.com' successfully
+
+2020-09-22 08:27:08 - [MESSAGE][PASSED] - Navigate to 'https://covid19sandbox.test-arcadier.com' successfully
+
+2020-09-22 08:27:08 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-22 08:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-22 08:27:10 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-22 08:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-22 08:27:10 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-22 08:27:11 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-22 08:27:11 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-22 08:27:12 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-22 08:27:12 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-22 08:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-22 08:27:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-22 08:27:14 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "item1598418357"): Text 'item1598418357' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-22 08:27:16 - [MESSAGE][PASSED] - Text 'item1598418357' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-22 08:27:16 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-22 08:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-22 08:27:18 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/item_name")): Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-22 08:27:21 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-22 08:27:21 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-09-22 08:27:21 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-09-22 08:27:21 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/seller_without_find")): Object: 'Object Repository/nav_to_storefront/seller_without_find' is clicked on
+
+2020-09-22 08:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/seller_without_find' is clicked on
+
+2020-09-22 08:27:25 - [TEST_STEP][PASSED] - setText(findTestObject("nav_to_storefront/input_search"), "item1598418357"): Text 'item1598418357' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-22 08:27:26 - [MESSAGE][PASSED] - Text 'item1598418357' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-22 08:27:26 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/btn_search")): Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-22 08:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-22 08:27:26 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("nav_to_storefront/find_flag"), 0): Web element with id: 'Object Repository/nav_to_storefront/find_flag' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)
+
+2020-09-22 08:27:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-22 08:27:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/nav_to_storefront/find_flag' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-22 08:25:42 - [TEST_SUITE][PASSED] - COVID_19: Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GDA" time="136.736" tests="5" failures="0" errors="0">
+   <testsuite name="GDA" tests="5" failures="0" errors="0" time="136.736" timestamp="2020-09-29 08:17:47" hostname="Natasha - 192.168.254.105" id="Test Suites/GDA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739"/>
+         <property name="logFiles" value="C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338797645.png, C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338798540.png, C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338799188.png, C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338800091.png, C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338800961.png, C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338801635.png, C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338802248.png, C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338802853.png, C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338803450.png"/>
+         <property name="hostName" value="Natasha - 192.168.254.105"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.254.105"/>
+         <property name="sessionId" value="f7a30c9b5226b9eac7460ab395489faf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_001" time="26.841" classname="Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_001" status="PASSED">
+         <system-out><![CDATA[2020-09-29 08:17:48 - [TEST_CASE][PASSED] - Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_001: Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_001
+
+2020-09-29 08:17:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:17:49 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-29 08:17:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-29 08:17:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-29 08:17:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-29 08:17:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-29 08:17:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-29 08:17:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-29 08:17:56 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:18:00 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:18:00 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:18:01 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:18:02 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:18:03 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:18:03 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:18:03 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:18:03 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:18:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:18:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Search Item Homepage GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage GDA' successfully
+
+2020-09-29 08:18:08 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Search Item Homepage GDA: Test Cases/UTILITIES/COVID19/Search Item Homepage GDA
+
+2020-09-29 08:18:09 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "Liquid culture"): Text 'Liquid culture' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 08:18:10 - [MESSAGE][PASSED] - Text 'Liquid culture' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 08:18:10 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 08:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 08:18:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage GDA' successfully
+
+2020-09-29 08:18:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("search_page/flag_icon"), 0): Object 'Object Repository/search_page/flag_icon' is present
+
+2020-09-29 08:18:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:18:15 - [MESSAGE][PASSED] - Object 'Object Repository/search_page/flag_icon' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_002" time="20.228" classname="Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_002" status="PASSED">
+         <system-out><![CDATA[2020-09-29 08:18:15 - [TEST_CASE][PASSED] - Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_002: Test Cases/GDA/Search Page/COMPLEX/TC_COMPLEX_002
+
+2020-09-29 08:18:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:18:15 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-29 08:18:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-29 08:18:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-29 08:18:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-29 08:18:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-29 08:18:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-29 08:18:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-29 08:18:21 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-29 08:18:21 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:18:24 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:18:24 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:18:26 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:18:26 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:18:27 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:18:27 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:18:28 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:18:28 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:18:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:18:30 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "item1600990526"): Text 'item1600990526' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 08:18:32 - [MESSAGE][PASSED] - Text 'item1600990526' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 08:18:32 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 08:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 08:18:34 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("search_page/flag_icon"), 0): Web element with id: 'Object Repository/search_page/flag_icon' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)
+
+2020-09-29 08:18:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:18:35 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/search_page/flag_icon' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_003" time="32.748" classname="Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_003" status="PASSED">
+         <system-out><![CDATA[2020-09-29 08:18:35 - [TEST_CASE][PASSED] - Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_003: Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_003
+
+2020-09-29 08:18:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:18:35 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-29 08:18:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-29 08:18:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-29 08:18:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-29 08:18:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-29 08:18:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-29 08:18:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-29 08:18:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-29 08:18:41 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:18:46 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:18:46 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:18:50 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:18:51 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:18:52 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:18:52 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:18:53 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:18:53 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:18:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:18:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Search Item Homepage GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage GDA' successfully
+
+2020-09-29 08:18:57 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Search Item Homepage GDA: Test Cases/UTILITIES/COVID19/Search Item Homepage GDA
+
+2020-09-29 08:18:57 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "Liquid culture"): Text 'Liquid culture' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 08:18:58 - [MESSAGE][PASSED] - Text 'Liquid culture' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 08:18:58 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 08:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 08:19:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Search Item Homepage GDA' successfully
+
+2020-09-29 08:19:01 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/item_name")): Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-29 08:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-29 08:19:03 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/seller_name")): Object: 'Object Repository/nav_to_storefront/seller_name' is clicked on
+
+2020-09-29 08:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/seller_name' is clicked on
+
+2020-09-29 08:19:05 - [TEST_STEP][PASSED] - setText(findTestObject("nav_to_storefront/input_search"), "Liquid Culture"): Text 'Liquid Culture' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-29 08:19:06 - [MESSAGE][PASSED] - Text 'Liquid Culture' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-29 08:19:06 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/btn_search")): Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-29 08:19:07 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-29 08:19:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("nav_to_storefront/find_flag"), 0): Object 'Object Repository/nav_to_storefront/find_flag' is present
+
+2020-09-29 08:19:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:19:08 - [MESSAGE][PASSED] - Object 'Object Repository/nav_to_storefront/find_flag' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004" time="30.393" classname="Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004" status="PASSED">
+         <system-out><![CDATA[2020-09-29 08:19:08 - [TEST_CASE][PASSED] - Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004: Test Cases/GDA/Merchant Store Front/COMPLEX/TC_COMPLEX_004
+
+2020-09-29 08:19:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:19:08 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-29 08:19:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-29 08:19:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-29 08:19:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-29 08:19:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-29 08:19:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-29 08:19:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-29 08:19:14 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-29 08:19:14 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:19:17 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:19:17 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:19:20 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:19:20 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:19:20 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:19:21 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:19:21 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:19:22 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:19:22 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:19:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:19:24 - [TEST_STEP][PASSED] - setText(findTestObject("homepage_search/input_search"), "item1600990526"): Text 'item1600990526' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 08:19:26 - [MESSAGE][PASSED] - Text 'item1600990526' is set on object 'Object Repository/homepage_search/input_search'
+
+2020-09-29 08:19:26 - [TEST_STEP][PASSED] - click(findTestObject("homepage_search/btn_search")): Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 08:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/homepage_search/btn_search' is clicked on
+
+2020-09-29 08:19:29 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/item_name")): Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-29 08:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/item_name' is clicked on
+
+2020-09-29 08:19:32 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/seller_name")): Object: 'Object Repository/nav_to_storefront/seller_name' is clicked on
+
+2020-09-29 08:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/seller_name' is clicked on
+
+2020-09-29 08:19:35 - [TEST_STEP][PASSED] - setText(findTestObject("nav_to_storefront/input_search"), "item1600990526"): Text 'item1600990526' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-29 08:19:36 - [MESSAGE][PASSED] - Text 'item1600990526' is set on object 'Object Repository/nav_to_storefront/input_search'
+
+2020-09-29 08:19:36 - [TEST_STEP][PASSED] - click(findTestObject("nav_to_storefront/btn_search")): Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-29 08:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/nav_to_storefront/btn_search' is clicked on
+
+2020-09-29 08:19:36 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("nav_to_storefront/find_flag"), 0): Web element with id: 'Object Repository/nav_to_storefront/find_flag' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)
+
+2020-09-29 08:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:19:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/nav_to_storefront/find_flag' located by 'By.xpath: //div[@id='items-list']/div/div/div/div/div/img' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/Home page/TC_COMPLEX_005" time="25.322" classname="Test Cases/GDA/Home page/TC_COMPLEX_005" status="PASSED">
+         <system-out><![CDATA[2020-09-29 08:19:38 - [TEST_CASE][PASSED] - Test Cases/GDA/Home page/TC_COMPLEX_005: Test Cases/GDA/Home page/TC_COMPLEX_005
+
+2020-09-29 08:19:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/COVID19/Buyer Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:19:38 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/COVID19/Buyer Login: Test Cases/UTILITIES/COVID19/Buyer Login
+
+2020-09-29 08:19:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-29 08:19:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-29 08:19:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-29 08:19:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-29 08:19:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-29 08:19:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-29 08:19:44 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-29 08:19:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:19:49 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/' successfully
+
+2020-09-29 08:19:49 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_in"), STOP_ON_FAILURE): Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_in' is clicked on
+
+2020-09-29 08:19:51 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/link_sign_is_as_buyer")): Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/link_sign_is_as_buyer' is clicked on
+
+2020-09-29 08:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_username"), username): Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:19:53 - [MESSAGE][PASSED] - Text 'codemafia' is set on object 'Object Repository/USER_SIGN_IN/input_username'
+
+2020-09-29 08:19:53 - [TEST_STEP][PASSED] - setText(findTestObject("USER_SIGN_IN/input_password"), password): Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:19:54 - [MESSAGE][PASSED] - Text 'welcome8' is set on object 'Object Repository/USER_SIGN_IN/input_password'
+
+2020-09-29 08:19:54 - [TEST_STEP][PASSED] - click(findTestObject("USER_SIGN_IN/btn_submit")): Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/USER_SIGN_IN/btn_submit' is clicked on
+
+2020-09-29 08:19:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/COVID19/Buyer Login' successfully
+
+2020-09-29 08:19:56 - [TEST_STEP][PASSED] - count = 0: null
+
+2020-09-29 08:19:56 - [TEST_STEP][PASSED] - for ([pos = 1, pos <= 10, (pos++)]): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:19:56 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:19:56 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:19:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:19:58 - [MESSAGE][WARNING] - Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338797645.png]]
+
+2020-09-29 08:19:58 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:19:58 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:19:58 - [MESSAGE][WARNING] - Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338798540.png]]
+
+2020-09-29 08:19:58 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:19:58 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:19:59 - [MESSAGE][WARNING] - Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338799188.png]]
+
+2020-09-29 08:19:59 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:19:59 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:20:00 - [MESSAGE][WARNING] - Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338800091.png]]
+
+2020-09-29 08:20:00 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:20:00 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): null
+
+2020-09-29 08:20:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:20:00 - [MESSAGE][PASSED] - Object '' has attribute 'class' with value 'find-flag'
+
+2020-09-29 08:20:00 - [TEST_STEP][PASSED] - (count++): null
+
+2020-09-29 08:20:00 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:20:00 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:20:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:20:01 - [MESSAGE][WARNING] - Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338800961.png]]
+
+2020-09-29 08:20:01 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:20:01 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:20:01 - [MESSAGE][WARNING] - Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338801635.png]]
+
+2020-09-29 08:20:01 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:20:01 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:20:02 - [MESSAGE][WARNING] - Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338802248.png]]
+
+2020-09-29 08:20:02 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:20:02 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:20:03 - [MESSAGE][WARNING] - Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338802853.png]]
+
+2020-09-29 08:20:03 - [TEST_STEP][PASSED] - element = TestObject().addProperty("xpath", EQUALS, "/html/body/div[4]/div/div/div/div[3]/div/div/a[" + pos + "]"): null
+
+2020-09-29 08:20:03 - [TEST_STEP][PASSED] - if (verifyElementAttributeValue(element, "class", "find-flag", 0, OPTIONAL) == true): Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+
+2020-09-29 08:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-29 08:20:03 - [MESSAGE][WARNING] - Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' has attribute 'class' with actual value '' instead of expected value 'find-flag'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.doCall(VerifyElementAttributeValueKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword$_verifyElementAttributeValue_closure1.call(VerifyElementAttributeValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.verifyElementAttributeValue(VerifyElementAttributeValueKeyword.groovy:109)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementAttributeValueKeyword.execute(VerifyElementAttributeValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementAttributeValue(WebUiBuiltInKeywords.groovy:3260)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementAttributeValue$7.call(Unknown Source)
+	at TC_COMPLEX_005.run(TC_COMPLEX_005:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601338659734.run(TempTestSuite1601338659734.groovy:39)
+)
+[[ATTACHMENT|C:\\Katalon\\FIND-FLAG\\Reports\\20200929_081739\\GDA\\20200929_081739\\1601338803450.png]]
+
+2020-09-29 08:20:03 - [TEST_STEP][PASSED] - actual_count = count: null
+
+2020-09-29 08:20:03 - [TEST_STEP][PASSED] - verifyEqual(expected_count_gda, actual_count, STOP_ON_FAILURE): Actual object '1' and expected object '1' are equal
+
+2020-09-29 08:20:03 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-29 08:17:47 - [TEST_SUITE][PASSED] - GDA: Test Cases/GDA/Home page/TC_COMPLEX_005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

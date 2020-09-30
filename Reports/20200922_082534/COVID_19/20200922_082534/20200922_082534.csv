@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+COVID_19,Chrome 85.0.4183.102,,,2020-09-22 08:25:42,2020-09-22 08:27:27,1m - 45.351s,PASSED
+,,,,,,,
+Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_001,Chrome 85.0.4183.102,Verify if FIND FLAG is visible on items from FIND,,2020-09-22 08:25:42,2020-09-22 08:26:04,22.154s,PASSED
+"callTestCase(findTestCase(""UTILITIES/COVID19/Buyer Login""), [:], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-22 08:25:43,2020-09-22 08:25:59,16.274s,PASSED
+"callTestCase(findTestCase(""UTILITIES/COVID19/Search Item Homepage""), [:], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-22 08:25:59,2020-09-22 08:26:03,3.973s,PASSED
+"verifyElementPresent(findTestObject(""search_page/flag_icon""), 0)",Chrome 85.0.4183.102,,,2020-09-22 08:26:03,2020-09-22 08:26:04,1.529s,PASSED
+,,,,,,,
+Test Cases/COVID19/Search Page/COMPLEX/TC_COMPLEX_002,Chrome 85.0.4183.102,Verify if FIND FLAG is NOT visible on items NOT FROM FIND,,2020-09-22 08:26:04,2020-09-22 08:26:26,21.524s,PASSED
+"callTestCase(findTestCase(""UTILITIES/COVID19/Buyer Login""), [:], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-22 08:26:05,2020-09-22 08:26:21,16.491s,PASSED
+"setText(findTestObject(""homepage_search/input_search""), ""item1598418357"")",Chrome 85.0.4183.102,,,2020-09-22 08:26:21,2020-09-22 08:26:23,2.252s,PASSED
+"click(findTestObject(""homepage_search/btn_search""))",Chrome 85.0.4183.102,,,2020-09-22 08:26:23,2020-09-22 08:26:25,1.802s,PASSED
+"verifyElementNotPresent(findTestObject(""search_page/flag_icon""), 0)",Chrome 85.0.4183.102,,,2020-09-22 08:26:25,2020-09-22 08:26:26,0.763s,PASSED
+,,,,,,,
+Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_003,Chrome 85.0.4183.102,Verify if FIND FLAG is visible on items from FIND,,2020-09-22 08:26:26,2020-09-22 08:26:59,32.846s,PASSED
+"callTestCase(findTestCase(""UTILITIES/COVID19/Buyer Login""), [:], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-22 08:26:26,2020-09-22 08:26:42,15.694s,PASSED
+"callTestCase(findTestCase(""UTILITIES/COVID19/Search Item Homepage""), [:], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-22 08:26:42,2020-09-22 08:26:46,4.087s,PASSED
+"click(findTestObject(""nav_to_storefront/item_name""))",Chrome 85.0.4183.102,,,2020-09-22 08:26:46,2020-09-22 08:26:52,5.873s,PASSED
+switchToWindowIndex(1),Chrome 85.0.4183.102,,,2020-09-22 08:26:52,2020-09-22 08:26:52,0.025s,PASSED
+"click(findTestObject(""nav_to_storefront/seller_name""))",Chrome 85.0.4183.102,,,2020-09-22 08:26:52,2020-09-22 08:26:56,4.180s,PASSED
+"setText(findTestObject(""nav_to_storefront/input_search""), ""uploaded in automated"")",Chrome 85.0.4183.102,,,2020-09-22 08:26:56,2020-09-22 08:26:57,0.986s,PASSED
+"click(findTestObject(""nav_to_storefront/btn_search""))",Chrome 85.0.4183.102,,,2020-09-22 08:26:57,2020-09-22 08:26:57,0.320s,PASSED
+"verifyElementPresent(findTestObject(""nav_to_storefront/find_flag""), 0)",Chrome 85.0.4183.102,,,2020-09-22 08:26:57,2020-09-22 08:26:59,1.494s,PASSED
+,,,,,,,
+Test Cases/COVID19/Merchant Store Front/COMPLEX/TC_COMPLEX_004,Chrome 85.0.4183.102,Verify if FIND FLAG is NOT visible on items NOT FROM FIND,,2020-09-22 08:26:59,2020-09-22 08:27:27,28.520s,PASSED
+"callTestCase(findTestCase(""UTILITIES/COVID19/Buyer Login""), [:], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-22 08:26:59,2020-09-22 08:27:14,15.175s,PASSED
+"setText(findTestObject(""homepage_search/input_search""), ""item1598418357"")",Chrome 85.0.4183.102,,,2020-09-22 08:27:14,2020-09-22 08:27:16,2.013s,PASSED
+"click(findTestObject(""homepage_search/btn_search""))",Chrome 85.0.4183.102,,,2020-09-22 08:27:16,2020-09-22 08:27:18,1.572s,PASSED
+"click(findTestObject(""nav_to_storefront/item_name""))",Chrome 85.0.4183.102,,,2020-09-22 08:27:18,2020-09-22 08:27:21,3.718s,PASSED
+switchToWindowIndex(1),Chrome 85.0.4183.102,,,2020-09-22 08:27:21,2020-09-22 08:27:21,0.017s,PASSED
+"click(findTestObject(""nav_to_storefront/seller_without_find""))",Chrome 85.0.4183.102,,,2020-09-22 08:27:21,2020-09-22 08:27:25,3.931s,PASSED
+"setText(findTestObject(""nav_to_storefront/input_search""), ""item1598418357"")",Chrome 85.0.4183.102,,,2020-09-22 08:27:25,2020-09-22 08:27:26,0.807s,PASSED
+"click(findTestObject(""nav_to_storefront/btn_search""))",Chrome 85.0.4183.102,,,2020-09-22 08:27:26,2020-09-22 08:27:26,0.331s,PASSED
+"verifyElementNotPresent(findTestObject(""nav_to_storefront/find_flag""), 0)",Chrome 85.0.4183.102,,,2020-09-22 08:27:26,2020-09-22 08:27:27,0.728s,PASSED

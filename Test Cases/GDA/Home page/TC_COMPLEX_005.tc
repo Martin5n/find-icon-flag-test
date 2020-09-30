@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if flag icons are visible on home page</description>
+   <name>TC_COMPLEX_005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83e7cbd7-3b0f-43d7-ab9a-05c7d3d13e07</testCaseGuid>
+</TestCaseEntity>

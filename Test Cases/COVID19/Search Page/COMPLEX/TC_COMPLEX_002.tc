@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if FIND FLAG is NOT visible on items NOT FROM FIND</description>
+   <name>TC_COMPLEX_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e67a0095-e598-48e0-8c7d-fce30bdff51b</testCaseGuid>
+</TestCaseEntity>
